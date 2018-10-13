@@ -1,0 +1,130 @@
+/* CSS Document */
+/*p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+
+p.ex2 {
+    border: 1px solid black;
+    outline-style: double;
+    outline-color: green;
+}
+
+p.ex3 {
+    border: 1px solid black;
+    outline-style: outset;
+    outline-color: yellow;
+}*/
+
+/*input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: progress;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}*/
+
+
+
+
+.card{
+width:300px;
+height:400px;
+margin:50px auto;	
+position:relative;
+transform-style:preserve-3d;
+transition:all 1s ease-in-out;
+font-size:18px;
+}
+
+
+.card:hover{
+	transform:rotatey(180deg);
+}
+
+.card div{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#CCC;
+	border-radius:10px;
+	border:1px solid #000;
+	text-align:center;
+}
+
+.card header{
+	background-color:#444;
+	width:100%;
+	height:80px;
+	border-radius:10px 10px 0px 0px;
+}
+
+
+p{
+margin-bottom:80px;	
+}
+.card .front span{
+color:#C60;	
+font-weight:bold;	
+}
+
+.card .front{
+z-index:2;	
+backface-visibility:hidden;
+
+}
+.card .back{
+z-index:1;	
+transform:rotateY(180deg);
+
+}
+.card .back ul{
+padding:10px;
+list-style:none;
+text-align:left;
+line-height:2;
+}
+
+
+
+
+
